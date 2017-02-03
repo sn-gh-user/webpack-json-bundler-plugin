@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "webpack-json-bundler-plugin",
+        "scope": null,
+        "escapedName": "webpack-json-bundler-plugin",
+        "name": "webpack-json-bundler-plugin",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/andrewjohnsson/WebstormProjects/rigiserver"
+    ]
+  ],
+  "_from": "webpack-json-bundler-plugin@latest",
+  "_id": "webpack-json-bundler-plugin@1.0.0",
+  "_inCache": true,
+  "_location": "/webpack-json-bundler-plugin",
+  "_nodeVersion": "4.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/webpack-json-bundler-plugin-1.0.0.tgz_1478791062082_0.7202151385135949"
+  },
+  "_npmUser": {
+    "name": "scottmcallister",
+    "email": "mr.scott.mcallister@gmail.com"
+  },
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "webpack-json-bundler-plugin",
+    "scope": null,
+    "escapedName": "webpack-json-bundler-plugin",
+    "name": "webpack-json-bundler-plugin",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/webpack-json-bundler-plugin/-/webpack-json-bundler-plugin-1.0.0.tgz",
+  "_shasum": "258b12ecae720f88917f29eec22b4022259b9c39",
+  "_shrinkwrap": null,
+  "_spec": "webpack-json-bundler-plugin",
+  "_where": "/Users/andrewjohnsson/WebstormProjects/rigiserver",
+  "author": "",
+  "dependencies": {
+    "deep-assign": "^2.0.0",
+    "file-system": "^2.2.1",
+    "object-path": "^0.11.2"
+  },
+  "description": "A webpack plugin to bundle json files together",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "258b12ecae720f88917f29eec22b4022259b9c39",
+    "tarball": "https://registry.npmjs.org/webpack-json-bundler-plugin/-/webpack-json-bundler-plugin-1.0.0.tgz"
+  },
+  "gitHead": "09bd65ff9928cb487f214f922e969681781637e2",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "scottmcallister",
+      "email": "mr.scott.mcallister@gmail.com"
+    }
+  ],
+  "name": "webpack-json-bundler-plugin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
