@@ -19,7 +19,8 @@ function JsonBundlerPlugin(options) {
 
             // read path and modify for creating JSON
             var localePath = relative.replace(this.omit, '').replace(filename, '');
-            localePath = localePath.replace(/^\/|\/$/g, '').replace(/\//g, '.');
+            localePath = localePath.replace(/\/|\\/g, '.');
+            localePath = localePath.substring(0, localePath.length - 1);
             var content = {};
             var data = fs.readFileSync(filepath, 'utf8');
             objectPath.set(content, localePath, JSON.parse(data));
